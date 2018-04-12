@@ -1,3 +1,7 @@
 .DS_Store
 node_modules/
 yarn.lock
+
+*.bak
+exo*.js
+helloworld.js

@@ -8,7 +8,7 @@ const SRC_DIR = path.resolve(__dirname, 'src');
 
 module.exports = (env = {}) => {
     return {
-        entry: ['babel-polyfill', SRC_DIR + '/js/index.js'],
+        entry: ['babel-polyfill', SRC_DIR + '/scss/index.scss', SRC_DIR + '/js/index.js'],
         output: {
             path: BUILD_DIR,
             filename: 'bundle.js'
