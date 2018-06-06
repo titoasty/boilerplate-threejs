@@ -1,4 +1,7 @@
 // three.js
 import * as THREE from 'three';
 
-import './exo5.js';
+// gsap
+import 'gsap';
+
+import './exo_particles2.js';
