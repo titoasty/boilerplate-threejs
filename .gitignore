@@ -6,3 +6,4 @@ package-lock.json
 *.bak
 exo*.js
 helloworld.js
+shaders/
