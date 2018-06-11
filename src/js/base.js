@@ -6,7 +6,7 @@ import * as THREE from 'three';
 
 let camera, scene, renderer, geometry, material, mesh;
 
-const init = () => {
+function init() {
     scene = new THREE.Scene();
 
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
@@ -29,7 +29,7 @@ const init = () => {
 
 const clock = new THREE.Clock();
 
-const animate = () => {
+function animate() {
     requestAnimationFrame(animate);
 
     const delta = clock.getDelta();
