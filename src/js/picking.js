@@ -42,7 +42,11 @@ function animate() {
 	var intersects = raycaster.intersectObjects( scene.children );
 	for ( var i = 0; i < intersects.length; i++ ) {
 		intersects[ i ].object.material.color.set( 0xff0000 );
-	}
+    }
+    
+    if(intersects.length <= 0) {
+        mesh.material.color.set(0x00ff00);
+    }
 
     renderer.render(scene, camera);
 }
