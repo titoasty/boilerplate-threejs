@@ -5,4 +5,4 @@ import * as THREE from 'three';
 import 'gsap';
 
 //import './base.js';
-import './picking.js';
+import './picking_anim.js';
